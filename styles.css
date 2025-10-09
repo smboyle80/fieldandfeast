@@ -125,10 +125,94 @@ table {
 :root{
     font-family: Playfair Display, sans-serif;
     color: #1F2A44, #76885B, #E5C185, #F8F4EC, #2B2B2B, #FAF9F6;
-    background-color: #1F2A44;
+    background-color: #F8F4EC;
 }
-h1{
+#header{
+    background-color: #1F2A44;
     color: #F8F4EC;
     text-align: center;
+    display: block;
+    margin: auto;
 }
-
+#header p{
+    font-size: smaller;
+    color: #FAF9F6;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 48px;
+    padding: 10px;
+}
+#contents{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #E5C185;
+    color: #1F2A44;
+    text-align: center;
+    padding: 10px;
+}
+a:active{
+    color: #1F2A44;
+}
+#about{
+    display: block;
+    margin: auto;
+    color: #1F2A44;
+    background-color: #F8F4EC;
+    border-bottom: 5px;
+    border-color: #E5C185;
+    padding: 20px 100px;
+}
+h2{
+    font-size: 40px;
+}
+p{ 
+    font-size: smaller;
+    color: #1F2A44;
+}
+#offerings{
+    display: block;
+    margin: auto;
+    color: #1F2A44;
+    background-color: #F8F4EC;
+    border-bottom: 5px;
+    border-color: #E5C185;
+    padding: 20px 100px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding: 10px;
+}
+#gallery{
+    display: block;
+    margin: auto;
+    color: #1F2A44;
+    background-color: #F8F4EC;
+    border-bottom: 5px;
+    border-color: #E5C185;
+    padding: 20px 100px;
+}
+#galgrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: auto;
+}
+#button{
+    display: block;
+    background-color: #76885B;
+    color: #FAF9F6;
+}
+#footer{
+    text-align: center;
+    color: #FAF9F6;
+    background-color: #1F2A44;
+}
+#social{
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto;
+    color: #E5C185;
+}
