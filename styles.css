@@ -248,7 +248,7 @@ input[type=button]{
     grid-template-columns: auto auto;
     color: #E5C185;
 }
-@media screen and (min-width: 520px){
+@media screen and (min-width: 600px){
 #grid{
     display: grid;
     grid-template-columns: auto auto;
@@ -260,13 +260,13 @@ input[type=button]{
     grid-template-columns: auto auto;
 }
 
-@media screen and (min-width: 745px){
+@media screen and (min-width: 900px){
     #galgrid{
     display: grid;
     grid-template-columns: auto auto auto;
 }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1200px) {
   
 
 }
