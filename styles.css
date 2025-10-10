@@ -127,6 +127,7 @@ table {
     color: #1F2A44, #76885B, #E5C185, #F8F4EC, #2B2B2B, #FAF9F6;
     background-color: #F8F4EC;
 }
+/* GLOBAL STYLES (mobile first/small) */
 #header{
     background-color: #1F2A44;
     color: #F8F4EC;
