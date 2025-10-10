@@ -151,8 +151,9 @@ h1{
     text-align: center;
     padding: 10px;
 }
-a:active{
+a:link{
     color: #1F2A44;
+    font-weight: bolder;
 }
 #about{
     display: block;
@@ -166,6 +167,9 @@ a:active{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 32px;
+}
 p{ 
     font-size: smaller;
     color: #1F2A44;
@@ -175,17 +179,29 @@ p{
     margin: auto;
     color: #1F2A44;
     background-color: #F8F4EC;
-    border-bottom: 5px;
-    border-color: #E5C185;
+    border: 2px solid #E5C185;
     padding: 20px 100px;
 }
 #grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #76885B;
-    color: #FAF9F6;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
+#grid > div{
+    display: block;
+    color:#FAF9F6;
+    background-color: #76885B;
+    border: 1px solid #76885B;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;
+}
+div p{
+    color: #FAF9F6;
+}
+ul{
+    font-size: smaller;
+}
+
 #gallery{
     display: block;
     margin: auto;
@@ -195,24 +211,67 @@ p{
     border-color: #E5C185;
     padding: 20px 100px;
 }
-#galgrid{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    margin: auto;
+figure{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
 }
-#button{
+
+input[type=button]{
     display: block;
     background-color: #76885B;
     color: #FAF9F6;
+    width: 100%;
 }
-#footer{
+#footer {
     text-align: center;
     color: #FAF9F6;
     background-color: #1F2A44;
+}
+#footer p{
+    color: #FAF9F6;
+}
+#footer a{
+    color: #E5C185;
+    font-weight: normal;
+}
+#address{
+    padding:20px;
+    margin:20px; 
 }
 #social{
     display: grid;
     margin: auto;
     grid-template-columns: auto auto;
     color: #E5C185;
+}
+@media screen and (min-width: 520px){
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+        color: #FAF9F6;
+    padding: 10px;
+    }  
+#galgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media screen and (min-width: 745px){
+    #galgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+}
+@media screen and (min-width: 1080px) {
+  
+
+}
+#galgrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
 }

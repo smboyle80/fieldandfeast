@@ -10,11 +10,11 @@
             <h1>Field & Feast</h1>
             <p>Harvested with Care, Served with Elegance</p>
         </section>
-        <section id="contents">
+        <div id="contents">
             <a href="about">About Us</a>
             <a href="offerings">Offerings</a>
             <a href="gallery">Gallery</a>
-        </section>
+        </div>
         <section id="about">
             <h2>Welcome to Field & Feast</h2>
                 <p>At Field & Feast, we believe that the finest meals begin at the source. Rooted in tradition yet refined for the modern palate, our farm-to-table philosophy celebrates the beauty of seasonality, sustainability, and craftsmanship. From the sun-drenched fields where our produce is grown to the artfully curated dishes we serve, every detail is designed to bring you an experience of unparalleled quality and flavor.</p>
@@ -22,46 +22,94 @@
         <section id="offerings">
             <h2>Our Offerings</h2>
                 <div id="grid">
+                <div>
                 <h3>Artisan Provisions</h3>
                     <p>Hand-selected, seasonal ingredients sourced from our estate farm and trusted local growers. Each item is chosen for its freshness, flavor, and integrity.</p>
+                </div>
+                <div>
                 <h3>Exclusive Dining Experiences</h3>
                     <p>Join us for intimate chef-led tastings and farm-to-table feasts, where carefully crafted menus highlight the best of the season.</p>
+                </div>
+                <div>
                 <h3>The Field & Feast Monthly Basket</h3>
                     <p>Experience a curated selection of premium seasonal ingredients delivered to your doorstep each month.</p>
                 <ul>
-                    <li>Hand-Harvested Produce: Fresh, organic fruits and vegetables.</li>
-                    <li>Artisan-Crafted Goods: Specialty cheeses, house-made preserves, and small-batch baked goods.</li>
-                    <li>Exclusive Recipes & Pairings: Thoughtfully designed by our chefs to inspire culinary creativity.</li>
+                    <li>●	Hand-Harvested Produce: Fresh, organic fruits and vegetables.</li>
+                    <li>●	Artisan-Crafted Goods: Specialty cheeses, house-made preserves, and small-batch baked goods.</li>
+                    <li>●	Exclusive Recipes & Pairings: Thoughtfully designed by our chefs to inspire culinary creativity.</li>
                 </ul>
                     <p>Elevate your home dining with the finest farm-to-table offerings, elegantly packaged and delivered with care.</p>
+                </div>
                 </div>
                 </section>   
          <section id="gallery">
             <h2>A Gallery of Field & Feast</h2>
                 <p>Experience the elegance and artistry behind Field & Feast through our curated collection of images. From lush fields and handcrafted ingredients to beautifully plated farm-to-table creations, each photo tells the story of our commitment to excellence.</p>
             <div id="galgrid">
-                <img src="images/tomatoes-300w.jpg" alt="Tomatoes on vine">
-                <h4>Heirloom tomatoes at peak ripeness.</h4>
-            <img src="images/olive-oil-300w.jpg" alt="Olives on a platter">
-                <h4>Drizzling golden olive oil over fresh harvest.
-            <img src="images/table-setting-300w.jpg" alt="Bread and candles on table">
-                <h4>Elegant tablescape under the evening sky.
-            <img src="images/chef-plating-300w.jpg" alt="Chef plating dishes">
-                <h4>Artful plating with seasonal ingredients.</h4>
-            <img src="images/basket-300w.jpg" alt="Berries in baskets">
-                <h4>Our monthly basket, curated with care.</h4>
+                <figure>
+                <img src="images/tomatoes-200w.jpg" 
+                    sizes="(min-width: 745px) 25vw, 
+                           (min-width: 1080px) 50vw"
+                    srcset="images/tomatoes-200w.jpg 200w,
+                            images/tomatoes-300w.jpg 300w,
+                            images/tomatoes-600w.jpg 600w"
+                     alt="Tomatoes on vine">
+                <figcaption>Heirloom tomatoes at peak ripeness.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/olive-oil-200w.jpg" 
+                    sizes="(min-width: 745px) 25vw, 
+                           (min-width: 1080px) 50vw"
+                    srcset="images/olive-oil-200w.jpg 200w,
+                            images/olive-oil-300w.jpg 300w,
+                            images/olive-oil-600w.jpg 600w"
+                 alt="Olives on a platter">
+                <figcaption>Drizzling golden olive oil over fresh harvest.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/table-setting-200w.jpg" 
+                    sizes="(min-width: 745px) 25vw, 
+                           (min-width: 1080px) 50vw"
+                    srcset="images/table-setting-200w.jpg 200w,
+                            images/table-setting-300w.jpg 300w,
+                            images/table-setting-600w.jpg 600w"
+                            alt="Bread and candles on table">
+                <figcaption>Elegant tablescape under the evening sky.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/chef-plating-200w.jpg" 
+                    sizes="(min-width: 745px) 25vw, 
+                           (min-width: 1080px) 50vw"
+                    srcset="images/chef-plating-200w.jpg 200w,
+                            images/chef-plating-300w.jpg 300w,
+                            images/chef-plating-600w.jpg 600w"
+                            alt="Chef plating dishes">
+                <figcaption>Artful plating with seasonal ingredients.</figcaption>
+                </figure>
+                <figure>
+                <img src="images/basket-200w.jpg" 
+                    sizes="(min-width: 745px) 25vw, 
+                           (min-width: 1080px) 50vw"
+                    srcset="images/basket-200w.jpg 200w,
+                            images/basket-300w.jpg 300w,
+                            images/basket-600w.jpg 600w"
+                            alt="Berries in baskets">
+                <figcaption>Our monthly basket, curated with care.</figcaption>
+                </figure>
             </div>
             <input type="button" value="View Our Full Gallery">
         </section>
-        <section id="footer">
+        <div id="footer">
+            <div id="address">
             <p> Estate Lane, Wine Country, CA </p>
             <p>(555)123-4567</p>
             <a href="mailto:hello@fieldandfeast.com">hello@fieldandfeast.com</a>
-            <div class="social">
+            </div>
+            <div id="social">
                 <a href="www.Instagram.com">Instagram</a>
                 <a href="www.facebook.com">Facebook</a>
             </div>
-        </section>
+        </div>
     </body>
 </html>
 
